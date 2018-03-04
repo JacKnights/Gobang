@@ -1,0 +1,48 @@
+body {
+    background-color: green;
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+#start {
+	width: 100px;
+	height: 30px;
+	margin: 20px auto;
+	background-color: red;
+	display: block;
+	font-size: 20px;
+}
+
+.block {
+	width: 38.4px;
+	height: 38px;
+	background: rgb(150, 150, 0);
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: -3px;
+}
+
+.blackgo {
+	width: 30px;
+	height: 30px;
+	margin: 4px auto;
+	background-color: black;
+	border-radius: 50% 50%;
+}
+
+.whitego {
+	width: 30px;
+	height: 30px;
+	margin: 4px auto;
+	background-color: white;
+	border-radius: 50% 50%;
+}
+
+#playernum {
+	color: red;
+}
